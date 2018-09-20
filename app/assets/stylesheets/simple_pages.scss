@@ -1,3 +1,31 @@
-// Place all the styles related to the simple_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 5em;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+}
+
+.main-pic {
+  padding-left: 10%;
+}
+
+.second-pic {
+  padding-left: 10%;
+}
