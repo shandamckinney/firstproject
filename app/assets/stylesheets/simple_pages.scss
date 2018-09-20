@@ -6,22 +6,26 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   font-family: sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 1em;
+  font-size: 2em;
   font-family: sans-serif;
   text-align: center;
 }
 
 footer {
-  text-align: center;
+  text-align: left;
 }
 
 .main-pic {
+  padding-left: 10%;
+}
+
+.second-pic {
   padding-left: 10%;
 }
