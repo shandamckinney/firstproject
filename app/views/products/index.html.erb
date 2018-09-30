@@ -9,10 +9,11 @@
       <th>Description</th>
       <th>Image url</th>
       <th>Colour</th>
+      <th>Price</th>
       <th colspan="4"></th>
     </tr>
   </thead>
-
+<!--
   <tbody>
     <% @products.each do |product| %>
       <tr>
@@ -25,7 +26,7 @@
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-
+-->
   </tbody>
 </table>
 
@@ -36,7 +37,7 @@
         <a href="#"><h1><%= product.name %></h1></a>
         <p><%= product.description %></p>
         <p><%= product.colour %></p>
-        
+        <p><%= product.prices %></p>
       </div><!-- /col -->
     <% end %>
   </div>
