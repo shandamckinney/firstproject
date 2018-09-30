@@ -30,10 +30,25 @@ footer {
   padding-left: 10%;
 }
 
-.product_header {
+div.col-sm {
+  border-style: solid;
+  padding: 3%;
+  margin: 1%;
+}
+.pdttitle {
   font-size: 3em;
 }
 
-.prices {
-  text-align: center;
+.pdtdescribe {
+  font-size: 1.5em;
+}
+
+.pdtcolor {
+  font-size: 1em;
+}
+
+.pdtprice {
+  font-size: 1em;
+  font-weight: 600;
+
 }
