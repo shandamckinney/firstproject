@@ -1,15 +1,46 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body {
+  background-color: #C0C5C1;
+}
+
+.navbar-default {
+    background-color: #574B60;
+    border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-brand {
+    color: #EAF0CE;
+    font-family: 'Poppins', sans-serif;
+}
+
+a.nav-item.nav-link.active {
+  color:#EAF0CE;
+}
+
+a.nav-item.nav-link {
+  color:#EAF0CE;
+}
+
+.navbar-toggler {
+  background-color: #3F334D;
+}
+
+.navbar-toggler-icon {
+  color: #EAF0CE;
+  margin-top: 10%;
+  margin-bottom: -15%;
+
+}
+
+#featuredtitle {
+  font-size: 5em;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+div.carousel-item {
+  padding-left: 15%;
+}
+
+footer {
+  background-color: #574B60;
+}
