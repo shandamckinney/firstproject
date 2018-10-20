@@ -44,3 +44,43 @@ div.carousel-item {
 footer {
   background-color: #574B60;
 }
+
+
+#aboutwelcome {
+  font-size: 3em;
+  text-align:center;
+  padding-bottom: 3%;
+
+}
+
+#storyquote {
+  text-align: center;
+}
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#bluelinestory {
+  font-size: 16px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+#contactcolumns {
+  padding: 5%;
+  padding-left: 10%;
+}
+
+#contactinfo {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 12%;
+}
+
+#googlemap {
+  padding-left: 2%;
+  padding-right: 5%;
+}
