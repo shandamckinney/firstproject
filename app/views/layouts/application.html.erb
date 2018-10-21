@@ -14,9 +14,25 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-lg navbar-default">
+    <header class="site-header" role="banner" data-section-id="header" data-section-type="header">
+      <div class="upper-site-header">
+        <img id="headerbike" src="https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/89/3856308ce4a878a.jpg">
+        <h4 id="berlinheader">Berlin Bikes</h4>
+      </div>
+      <ul class="twitter" role="navigation" id="stickynav">
+              <li>Featured Product</li>
+              <li>Home</li>
+              <li><a href="http://localhost:3000/products">Shop</a></li>
+              <li><a href="http://localhost:3000/simple_pages/about">About</a></li>
+              <li><a href="http://localhost:3000/simple_pages/contact">Contact</a></li>
+              <li>Blank</li>
+              <li>Blank</li>
+      </ul>
+
+    </header>
+  <!--  <nav class="navbar navbar-lg navbar-default">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="http://localhost:3000">
           Berlin Bike Shop
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +48,7 @@
         </div>
       </div>
     </nav>
-
-
+-->
 
     <%= yield %>
 
