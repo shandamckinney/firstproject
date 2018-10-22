@@ -76,6 +76,7 @@ a {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 #mainpic {
@@ -120,6 +121,19 @@ footer {
   padding-bottom: 5%;
 }
 
+#carouselarrowleft {
+  padding-top: 100%;
+}
+
+#carouselarrowright{
+  padding-top: 100%;
+}
+
+.carousel-caption {
+  font-size: 3em;
+  color: black;
+  padding-top: 5%;
+}
 #bluelinestory {
   font-size: 16px;
   font-family: Helvetica,Arial,sans-serif;
