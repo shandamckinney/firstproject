@@ -21,10 +21,10 @@
       </div>
       <ul class="twitter" role="navigation" id="stickynav">
               <li>Featured</li>
-              <li><a href="http://localhost:3000">Home</a></li>
-              <li><a href="http://localhost:3000/products">Shop</a></li>
-              <li><a href="http://localhost:3000/simple_pages/about">About</a></li>
-              <li><a href="http://localhost:3000/simple_pages/contact">Contact</a></li>
+              <li><%= link_to "Home", simple_pages_landing_page_path, class: "nav-link" %></li>
+              <li><%= link_to "Products", products_path, class: "nav-link" %></li>
+              <li><%= link_to "About", simple_pages_about_path, class: "nav-link" %></li>
+              <li><%= link_to "Contact", simple_pages_contact_path, class: "nav-link" %></li>
               <li>Blank</li>
               <li>Blank</li>
       </ul>
