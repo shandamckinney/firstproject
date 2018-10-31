@@ -27,6 +27,11 @@
               <li><%= link_to "Contact", simple_pages_contact_path, class: "nav-link" %></li>
               <li>Blank</li>
               <li>Blank</li>
+              <li> <%= form_with(url: products_path, method: 'get', local: true) do |form| %>
+              <%= form.label :q, 'Search for:' %>
+              <%= form.text_field :q, id: 'q', value: params[:q] %>
+              <%= form.submit 'Search' %>
+              <% end %> </li>
       </ul>
 
     </header>

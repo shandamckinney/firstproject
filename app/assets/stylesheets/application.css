@@ -2,6 +2,7 @@ body {
   background-color: #C0C5C1;
 }
 
+/* NAVBAR */
 .navbar-default {
     background-color: #574B60;
     border-color: #E7E7E7;
@@ -30,7 +31,7 @@ a.nav-item.nav-link {
   margin-bottom: -15%;
 
 }
-
+/* HEADER */
 header.site-header{
   background-color: black;
 }
@@ -71,12 +72,31 @@ a {
   padding-right: 2%;
 }
 
+/* FRONT PAGE */
 #featuredtitle {
   font-size: 4em;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding-top: 5%;
   padding-bottom: 3%;
+}
+
+div.carousel-item {
+  padding-left: 15%;
+}
+
+#carouselarrowleft {
+  padding-top: 100%;
+}
+
+#carouselarrowright{
+  padding-top: 100%;
+}
+
+.carousel-caption {
+  font-size: 3em;
+  color: black;
+  padding-top: 5%;
 }
 
 #mainpic {
@@ -93,16 +113,14 @@ a {
   margin-left: 33%;
   font-size: 2em;
 }
-div.carousel-item {
-  padding-left: 15%;
-}
 
+/* FOOTER */
 footer {
   background-color: black;
   color: white;
 }
 
-
+/*ABOUT PAGE */
 #aboutwelcome {
   font-size: 3em;
   text-align:center;
@@ -121,19 +139,7 @@ footer {
   padding-bottom: 5%;
 }
 
-#carouselarrowleft {
-  padding-top: 100%;
-}
-
-#carouselarrowright{
-  padding-top: 100%;
-}
-
-.carousel-caption {
-  font-size: 3em;
-  color: black;
-  padding-top: 5%;
-}
+/* CONTACT PAGE */
 #bluelinestory {
   font-size: 16px;
   font-family: Helvetica,Arial,sans-serif;
@@ -155,6 +161,7 @@ footer {
   padding-right: 5%;
 }
 
+/* ORDERS */
 #orderstitle {
   text-align: center;
   font-size: 4em;
