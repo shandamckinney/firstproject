@@ -82,7 +82,7 @@ a {
 }
 
 div.carousel-item {
-  padding-left: 15%;
+  padding-left: 11%;
 }
 
 #carouselarrowleft {
@@ -95,8 +95,9 @@ div.carousel-item {
 
 .carousel-caption {
   font-size: 3em;
-  color: black;
+  color: white;
   padding-top: 5%;
+  padding-right: 12%;
 }
 
 #mainpic {
@@ -118,6 +119,7 @@ div.carousel-item {
 footer {
   background-color: black;
   color: white;
+  margin-top: 6%;
 }
 
 /*ABOUT PAGE */
@@ -177,4 +179,9 @@ footer {
 #smallerordernum {
   font-size: 1em;
 
+}
+/* PRODUCTS */
+#producttitle {
+  padding-left: 40%;
+  font-size: 4em;
 }
