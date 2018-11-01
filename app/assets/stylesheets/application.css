@@ -84,20 +84,11 @@ a {
 div.carousel-item {
   padding-left: 11%;
 }
-
-#carouselarrowleft {
-  padding-top: 100%;
-}
-
-#carouselarrowright{
-  padding-top: 100%;
-}
-
 .carousel-caption {
   font-size: 3em;
   color: white;
   padding-top: 5%;
-  padding-right: 12%;
+  padding-right: 20%;
 }
 
 #mainpic {
@@ -105,7 +96,7 @@ div.carousel-item {
 }
 
 #bikeneeds {
-  margin-left: 30%;
+  margin-left: 27%;
   padding-top:3%;
   padding-bottom: 3%;
 }
