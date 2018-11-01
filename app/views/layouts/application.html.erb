@@ -20,13 +20,10 @@
         <h4 id="berlinheader">Berlin Bikes</h4>
       </div>
       <ul class="twitter" role="navigation" id="stickynav">
-              <li>Featured</li>
-              <li><%= link_to "Home", simple_pages_landing_page_path, class: "nav-link" %></li>
+              <li><a href="http://localhost:3000">Home</a></li>
               <li><%= link_to "Products", products_path, class: "nav-link" %></li>
               <li><%= link_to "About", simple_pages_about_path, class: "nav-link" %></li>
               <li><%= link_to "Contact", simple_pages_contact_path, class: "nav-link" %></li>
-              <li>Blank</li>
-              <li>Blank</li>
               <li> <%= form_with(url: products_path, method: 'get', local: true) do |form| %>
               <%= form.label :q, 'Search for:' %>
               <%= form.text_field :q, id: 'q', value: params[:q] %>
