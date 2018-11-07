@@ -7,7 +7,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-left: 17%">
   <ol class="carousel-indicators">
     <% @products.each_with_index do |product, index| %>
-    <li data-target="#carouselExampleIndicators" data-slide-to="<%= index %>" class="<%= "active" if product == @products.first %>"></li>
+    <li data-target="#carouselExampleControls" data-slide-to="<%= index %>" class="<%= "active" if product == @products.first %>"></li>
     <% end %>
   </ol>
 <div class="carousel-inner">
