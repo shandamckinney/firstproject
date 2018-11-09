@@ -10,29 +10,29 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= form.label :name %>
+<form class="formbody">
+  <div>
+    <%= form.label :name, class:'form-control' %>
     <%= form.text_field :name %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
+  <div>
+    <%= form.label :description, class:'form-control'%>
     <%= form.text_area :description %>
   </div>
 
-  <div class="field">
-    <%= form.label :image_url %>
+  <div>
+    <%= form.label :image_url, class:'form-control' %>
     <%= form.text_field :image_url %>
   </div>
 
-  <div class="field">
-    <%= form.label :colour %><br>
+  <div>
+    <%= form.label :colour, class:'form-control'%><br>
     <%= form.text_field :colour %>
   </div>
 
-  <div class="field">
-    <%= form.label :prices %><br>
+  <div>
+    <%= form.label :prices, class:'form-control' %><br>
     <%= form.text_field :prices %>
   </div>
 
@@ -40,3 +40,4 @@
     <%= form.submit %>
   </div>
 <% end %>
+</form>

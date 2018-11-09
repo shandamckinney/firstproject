@@ -188,3 +188,30 @@ footer {
 #showimage {
   padding-left: 24%;
 }
+
+#newproducts {
+  margin-left: 41%;
+}
+
+form{
+  background-color: black;
+  margin: 5%;
+  text-align: center;
+  color: white;
+}
+label {
+  display:block;
+  padding-top: 2%;
+}
+.form-control {
+  width: 20%;
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  margin-left: 40%;
+}
+.actions {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
