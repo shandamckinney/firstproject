@@ -1,12 +1,23 @@
-<div id="contactcolumns" class="row">
-  <div id="contactinfo" class="column">
-    <h3>Contact Us!</h3>
-    <p>Phone: 888-888-8888</p>
-    <p>Email: berlinbikeshop@email.com</p>
-    <p> Address: 111 Main St. Houston, Texas </p>
-  </div>
-  <div id="googlemap" class="column">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.8473417875566!2d-95.36184098522118!3d29.75313098198925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf2253364a25%3A0x8ed9f565fcbf923!2sDiscovery+Green!5e0!3m2!1sen!2sus!4v1539971068629" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<h1 id="contacttitle">Contact Us</h1>
 
+<%= flash[:notice] %>
+
+<%= form_with(url:"/simple_pages/thank_you", method: "post", local: true) do |form| %>
+<div class="contactcontainer">
+<div class="row" id="contactrow">
+  <div class="form-group">
+    <%= form.label :name %>
+    <%= form.text_field :name, class: "form-control", placeholder: "Enter Name" %>
+  </div>
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder: "Enter Email" %>
+  </div>
+  <div class="form-group">
+    <%= form.label :message %>
+    <%= form.text_area :message, class: "form-control", placeholder: "Enter Message", rows: 5 %>
   </div>
 </div>
+</div>
+<%= form.submit "Send", class: "form_label btn-lg" %>
+<% end %>

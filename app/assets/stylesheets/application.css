@@ -138,21 +138,36 @@ footer {
   font-family: Helvetica,Arial,sans-serif;
 }
 
-#contactcolumns {
-  padding: 5%;
-  padding-left: 10%;
+#contacttitle {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 2%;
 }
 
-#contactinfo {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 12%;
+.form-group{
+  background-color: white;
+  display: inline;
 }
 
-#googlemap {
-  padding-left: 2%;
-  padding-right: 5%;
+#contactrow {
+  display: inline;
+  background-color: #574B60;
 }
+
+.contactcontainer {
+  background-color: #574B60;
+}
+
+.form-label{
+  background-color: white;
+}
+
+#tytemplate {
+  background-color: #7D8491;
+  margin: 5%;
+  text-align: center;
+}
+
 
 /* ORDERS */
 #orderstitle {
@@ -205,7 +220,7 @@ label {
 }
 .form-control {
   width: 20%;
-  background-color: black;
+  background-color: white;
   color: white;
   border: none;
   text-align: center;
