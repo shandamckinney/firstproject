@@ -31,6 +31,14 @@ a.nav-item.nav-link {
   margin-bottom: -15%;
 
 }
+
+p#notice {
+  color:#C0C5C1;
+}
+
+p.notice {
+  text-align: center;
+}
 /* HEADER */
 header.site-header{
   background-color: black;
@@ -43,15 +51,20 @@ header.site-header{
   width: 50%;
   padding-left: 30%;
   margin-left: 10%;
+  margin-bottom: -3%;
 }
 #berlinheader {
-  font-size:2em;
-  padding-left: 44%;
+  font-size:3em;
+  padding-left: 41%;
   color: #7c7c7c;
 }
 #stickynav {
   background-color:black;
   color: white;
+  margin-top: -2%;
+  margin-bottom: -2%;
+  font-size: 1.25em;
+  font-weight: 600;
 }
 ul {
   padding: 0;
@@ -190,6 +203,7 @@ footer {
 #producttitle {
   padding-left: 40%;
   font-size: 4em;
+  padding-bottom: 4%;
 }
 
 .showpagebody {
@@ -210,7 +224,8 @@ footer {
 
 form{
   background-color: black;
-  margin: 5%;
+  margin: 15%;
+  margin-top:0%;
   text-align: center;
   color: white;
 }
@@ -228,5 +243,20 @@ label {
 }
 .actions {
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Sign up and Sign in forms */
+input{
+  border-radius: 6px;
+}
+
+.form-group {
+  background-color: black;
+}
+
+#signup, #login, #forgotpassword, #changepassword {
+  text-align: center;
+  font-size: 3em;
   padding-bottom: 5%;
 }
