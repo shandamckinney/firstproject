@@ -45,6 +45,14 @@
       </div>
     </header>
 
+    <% if alert %>
+    <p id="alert" class="alert alert-dark"><%= alert %></p>
+    <% end %>
+
+    <% if notice %>
+    <p id="notice" class="alert alert-dark"><%= notice %></p>
+    <% end %>
+
     <p class="notice"><%= notice %></p>
     <p class="alert"><% alert %></p>
 
