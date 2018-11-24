@@ -1,27 +1,28 @@
-<div class="showpagebody">
-<p id="notice"><%= notice %></p>
-  <div id="showimage"
-    <p>
-      <%= image_tag(@product.image_url) %>
-    </p>
-  </div>
-  <div id="showinfo">
-    <p>
-      <strong>Name:</strong>
-      <%= @product.name %>
-    </p>
-    <p>
-      <strong>Description:</strong>
-      <%= @product.description %>
-    </p>
-    <p>
-      <strong>Colour:</strong>
-      <%= @product.colour %>
-    </p>
-    <p>
-      <strong>Prices:</strong>
-      <%= @product.price %>
-    </p>
+<div class="container show">
+  <div class="row">
+    <div class="col-sm-12 col-lg-8 productinfoleft img-fluid">
+        <%= image_tag(@product.image_url, class: "img-fluid") %>
+    </div>
+    <div class="col-sm-12 col-lg-4 productinforight">
+        <p id="producttitle">
+          <strong><%= @product.name %></strong>
+        </p>
+        <p id="productdescription">
+          <%= @product.description %>
+        </p>
+        <p id="overview">
+          <strong>Overview:</strong>
+        </p>
+        <p>
+          <%= @product.colour %>
+        </p>
+        <p>
+          <%= @product.price %>
+        </p>
+      <h1>
+        <%= @product.highest_rating_comment %>
+      </h1>
+    </div>
   </div>
 </div>
 

@@ -199,22 +199,30 @@ footer {
 }
 /* PRODUCTS */
 #producttitle {
-  padding-left: 40%;
-  font-size: 4em;
-  padding-bottom: 4%;
+  font-size: 3em;
+  text-align: left;
+  letter-spacing: 2px;
+}
+#productdescription{
+  padding-bottom: 10%;
+  margin-top: -7%;
+
+}
+#overview {
+  font-size: 2em;
+  font-weight: 300;
+}
+.container.show {
+  margin-top: -7%;
+  margin-left: 0;
+  margin-right: -5%;
+
 }
 
-.showpagebody {
-  margin: 5%;
+#overview {
+  margin-top: 3%;
 }
 
-#showinfo {
-  text-align: center;
-}
-
-#showimage {
-  padding-left: 24%;
-}
 
 #newproducts {
   margin-left: 41%;
