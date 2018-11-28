@@ -32,6 +32,10 @@ gem 'jbuilder', '~> 2.5'
 # gem CanCanCan
 gem 'cancancan', '~> 2.0'
 
+# ratyrate
+gem 'ratyrate'
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
