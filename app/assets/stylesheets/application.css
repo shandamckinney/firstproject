@@ -256,6 +256,38 @@ label {
   padding-bottom: 5%;
 }
 
+.averagerating{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.newcomments {
+padding-top:5%;
+margin-left: 5%;
+}
+
+.oldcomments {
+padding-top: 10%;
+align-items: left;
+}
+
+h4 {
+  margin-left: 39%;
+  font-size: 2.5em;
+  width: 100%;
+
+}
+
+form#new_comment.new_comment{
+  width: 150%;
+  height: auto;
+}
+
+#timeandname {
+  padding-bottom: 5%;
+}
+
 /* Sign up and Sign in forms */
 input{
   border-radius: 6px;
