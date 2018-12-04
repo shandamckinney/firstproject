@@ -272,21 +272,55 @@ padding-top: 10%;
 align-items: left;
 }
 
-h4 {
-  margin-left: 39%;
-  font-size: 2.5em;
-  width: 100%;
 
-}
 
 form#new_comment.new_comment{
-  width: 150%;
+  width: 50%;
   height: auto;
 }
 
 #timeandname {
   padding-bottom: 5%;
 }
+
+.column {
+    float: left;
+
+}
+
+.left {
+  width: 50%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.right {
+  width: 50%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+em {
+  font-size: .25em;
+  margin-right: 10%;
+}
+
+#rating {
+  margin-right: 5%;
+}
+
+#commentbody {
+  margin-right: 5%;
+}
+
+div.rated {
+  margin-right: 5%;
+}
+
+.wholecomment {
+  padding-bottom: 5%;
+}
+
 
 /* Sign up and Sign in forms */
 input{
