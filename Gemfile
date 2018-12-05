@@ -38,6 +38,8 @@ gem 'ratyrate'
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
 
+gem 'bootstrap-glyphicons'
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

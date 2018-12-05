@@ -3,7 +3,8 @@
  */
 
 body {
-  background-color: #C0C5C1;
+  background-color: white;
+  height: 100%;
 }
 
 /* NAVBAR */
@@ -26,7 +27,7 @@ a.nav-item.nav-link {
 }
 
 .navbar-toggler {
-  background-color: #3F334D;
+  background-color: white;
 }
 
 .navbar-toggler-icon {
@@ -35,9 +36,16 @@ a.nav-item.nav-link {
   margin-bottom: -15%;
 
 }
-
-
-
+.searchform {
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+a.navbar-brand {
+  font-size: 2.25em;
+}
+.nav-link {
+  font-size: 1.1em;
+}
 p.notice {
   text-align: center;
 }
@@ -78,7 +86,7 @@ li{
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 .twitter {
@@ -112,7 +120,6 @@ div.carousel-item {
 
 #bikeneeds {
   margin-left: 27%;
-  padding-top:3%;
   padding-bottom: 3%;
 }
 
@@ -125,7 +132,7 @@ div.carousel-item {
 footer {
   background-color: black;
   color: white;
-  margin-top: 6%;
+
 }
 
 /*ABOUT PAGE */
@@ -170,9 +177,10 @@ footer {
 }
 
 .contactcontainer {
-  background-color: #574B60;
+  width: auto;
+  height: 100%;
+  border: 5px;
 }
-
 .form-label{
   background-color: white;
 }
@@ -204,7 +212,7 @@ footer {
 /* PRODUCTS */
 #producttitle {
   font-size: 3em;
-  text-align: left;
+  text-align: center;
   letter-spacing: 2px;
 }
 #productdescription{
@@ -233,21 +241,20 @@ footer {
 }
 
 form{
-  background-color: black;
-  margin: 15%;
   margin-top:0%;
   text-align: center;
   color: white;
+
 }
 label {
   display:block;
-  padding-top: 2%;
+}
+input.form_label.btn-lg {
+  margin-bottom: 5%;
 }
 .form-control {
   width: 20%;
-  background-color: black;
-  color: white;
-  border: none;
+  color: black;
   text-align: center;
   margin-left: 40%;
 }
