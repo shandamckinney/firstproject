@@ -2,6 +2,8 @@
  *= require jquery.raty
  */
 
+ @import 'bootstrap/glyphicons';
+
 body {
   background-color: white;
   height: 100%;
@@ -132,6 +134,7 @@ div.carousel-item {
 footer {
   background-color: black;
   color: white;
+  margin-top: 5%;
 
 }
 
