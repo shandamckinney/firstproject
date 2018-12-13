@@ -10,10 +10,9 @@ class Ability
       can :manage, User
       can :manage, Comment
       cannot [:destroy, :delete], Comment
-      cannot [:destroy, :delete], Product 
+      cannot [:destroy, :delete], Product
     end
 
 
     end
   end
-end
