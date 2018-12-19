@@ -71,7 +71,7 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails', '~> 3.8'
 end
 
   gem 'devise'
