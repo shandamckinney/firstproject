@@ -43,6 +43,8 @@ gem 'bootstrap-glyphicons'
 gem 'rails-controller-testing'
 
 
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -74,6 +76,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails', '~> 3.8'
+  gem "factory_bot_rails"
 end
 
   gem 'devise'
