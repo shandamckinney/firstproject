@@ -288,7 +288,10 @@ form#new_comment.new_comment{
   width: 50%;
   height: auto;
 }
-
+button.stripe-button-el {
+  margin-top: 2%;
+  margin-left: -62%;
+}
 #timeandname {
   padding-bottom: 5%;
 }

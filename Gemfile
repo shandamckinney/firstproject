@@ -42,6 +42,8 @@ gem 'bootstrap-glyphicons'
 
 gem 'rails-controller-testing'
 
+gem 'stripe'
+
 
 
 
