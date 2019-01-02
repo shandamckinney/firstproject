@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   end
   resources :users
 
+  post 'payments/create'
+
   get 'simple_pages/products'
   get 'simple_pages/about'
   get 'simple_pages/contact'
