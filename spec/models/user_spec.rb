@@ -4,7 +4,7 @@ describe User do
   context "When user is present" do
 
     it "is valid when password and email are present" do
-      expect(User.new(email: "test@email.com", password: "testtest")).to be_valid
+      expect(User.new(email: "test@gmail.com", password: "testtest")).to be_valid
     end
 
     it "is invalid without a password" do
