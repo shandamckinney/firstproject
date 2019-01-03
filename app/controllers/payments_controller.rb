@@ -12,7 +12,7 @@ class PaymentsController < ApplicationController
           currency: "eur",
           source: token,
           description: params[:stripeEmail]
-        )
+        
 
       if charge.paid
 
