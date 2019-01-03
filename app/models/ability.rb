@@ -4,9 +4,11 @@ class Ability
   def initialize(user)
     if user.nil?
       user = User.new
+
     elsif user.admin?
       can :manage, :all
     else
+      
       can :manage, User
       can :manage, Comment
       cannot [:destroy, :delete], Comment
