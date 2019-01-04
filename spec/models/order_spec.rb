@@ -10,7 +10,7 @@ describe Order do
       )
     }
 
-    let (:user) {User.create!(email: "test@email.com", password: "testtest")}
+    let (:user) {User.create!(email: "grant@email.com", password: "testtest")}
 
     it "returns a valid order" do
       expect(Order.new(user: user, product: product, total: 100)).to be_valid
