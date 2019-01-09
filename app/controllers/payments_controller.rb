@@ -11,7 +11,7 @@ class PaymentsController < ApplicationController
         amount: (@product.price*100), # amount in cents, again
         currency: "eur",
         source: token,
-        description: params[:stripeEmail],)
+        description: params[:stripeEmail])
 
 
       if charge.paid
@@ -24,5 +24,6 @@ class PaymentsController < ApplicationController
         err = body[:error]
         flash[:error] = "Unfortunately, there was an error processing your payment: #{err[:message]} Your card has not been charged. Please try again."
       end
-      
+      redirect_to product_path(@product), notice: "Thank you for your purchase."
     end
+end
