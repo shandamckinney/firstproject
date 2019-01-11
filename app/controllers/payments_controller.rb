@@ -26,4 +26,3 @@ class PaymentsController < ApplicationController
       end
       redirect_to product_path(@product), notice: "Thank you for your purchase."
     end
-end
