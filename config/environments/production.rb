@@ -4,8 +4,17 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+  config.cache_store = :mem_cache_store,
+                      (ENV["mc4.dev.ec2.memcachier.com:11211"] || "").split(","),
+                      {:username => ENV["8F6FB7"],
+                       :password => ENV["4774DC05124E91FBB0974E48CDF7D220"],
+                       :failover => true,
+                       :socket_timeout => 1.5,
+                       :socket_failure_delay => 0.2,
+                       :down_retry_delay => 60
+                      }
 
-  
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.

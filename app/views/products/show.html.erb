@@ -1,9 +1,11 @@
+<% cache @product do %>
 <div class="container show">
   <div class="row">
     <div class="col-sm-12 col-lg-8 productinfoleft img-fluid">
         <%= image_tag(@product.image_url,  class: "img-fluid img-zoom",  data_zoom_image: "@product.product_image.url")  %>
     </div>
     <div class="col-sm-12 col-lg-4 productinforight">
+      <% cache @product do %>
         <p id="producttitle">
           <strong><%= @product.name %></strong>
         </p>
@@ -19,6 +21,7 @@
         <p>
           <%= @product.price %>
         </p>
+        <% end %>
         <p> Average Rating: <div class="rated" id="average_rating" data-score="<%= @product.average_rating %>"></p>
         </div>
         <%= form_with(url: '/payments/create') do |form| %>
@@ -43,3 +46,4 @@
   </div>
 
   <%= will_paginate @comments %>
+  <% end %>

@@ -46,6 +46,8 @@ gem 'stripe'
 
 gem "brakeman"
 
+gem 'dalli'
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
