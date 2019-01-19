@@ -17,7 +17,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.assets.initialize_on_precompile = false
+
 
 
 module Firstproject
@@ -32,6 +32,6 @@ module Firstproject
     config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
     # Don't generate system test files.
     config.generators.system_tests = nil
-    
+
   end
 end
