@@ -65,6 +65,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'sqlite3'
+  gem "factory_bot_rails", "~> 4.0"
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :production do
@@ -80,10 +82,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test, :development do
-  gem 'rspec-rails', '~> 3.8'
-  gem "factory_bot_rails", "~> 4.0"
-end
 
   gem 'devise'
 
