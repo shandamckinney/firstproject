@@ -106,5 +106,5 @@ Rails.application.configure do
   #devise
   config.action_mailer.default_url_options = { host: 'berlin-bike-shop.herokuapp.com' }
   config.web_socket_server_url = "wss://berlin-bike-shop.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = ['https://your-app-name.herokuapp.com', 'http://berlin-bike-shop.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://berlin-bike-shop.herokuapp.com', 'https://berlin-bike-shop.herokuapp.com']
 end
