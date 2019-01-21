@@ -65,10 +65,10 @@ class UsersController < ApplicationController
     end
   end
 
-  #def redis
-    #redis.HMSET user id {|n|+1} first <%= @user.first_name %> last <%= @user.last_name %>
-    #redis.HGETALL
-  #end
+  def redis
+    $redis.set("test_key", "Hello World!")
+    $redis.get("test_key")
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
