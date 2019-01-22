@@ -4,13 +4,6 @@
 
  @import 'bootstrap/glyphicons';
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-}
 body {
   background-color: white;
   height: 100%;
@@ -226,8 +219,7 @@ footer {
   letter-spacing: 2px;
 }
 #productdescription{
-  padding-bottom: 10%;
-  margin-top: -7%;
+  text-align: center;
 
 }
 #overview {

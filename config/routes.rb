@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   resources :products do
     resources :comments
   end
+
+  get 'users/redis'
+
   resources :users
 
   post 'payments/create'
@@ -15,7 +18,7 @@ Rails.application.routes.draw do
   root 'simple_pages#landing_page'
   get 'products/index'
   post 'simple_pages/thank_you'
-  get 'users/redis'
+  
 
   mount ActionCable.server => '/cable'
 
