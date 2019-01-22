@@ -15,9 +15,10 @@ Rails.application.routes.draw do
   root 'simple_pages#landing_page'
   get 'products/index'
   post 'simple_pages/thank_you'
+  get 'users/redis'
 
   mount ActionCable.server => '/cable'
-  
+
   resources :orders, only: [:index, :show, :create, :destroy]
 
 

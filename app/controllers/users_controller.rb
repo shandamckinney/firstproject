@@ -67,7 +67,7 @@ class UsersController < ApplicationController
 
   def redis
     $redis.set("test_key", "Hello World!")
-    $redis.get("test_key")
+    @key = $redis.get("test_key") 
   end
 
   private
